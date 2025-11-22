@@ -1,1 +1,1 @@
-https://github.com/PlatonBarchenkov/ono-tebe-nado-ad/tree/main
+https://github.com/PlatonBarchenkov/ono-tebe-nado-ad
