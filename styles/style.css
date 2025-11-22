@@ -302,4 +302,5 @@ body {
 .footer_social-icon {
     width: 48px;
     height: 48px;
+    align-self: center;
 }
