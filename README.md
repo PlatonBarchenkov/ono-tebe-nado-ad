@@ -1,1 +1,0 @@
-https://github.com/PlatonBarchenkov/ono-tebe-nado-ad
