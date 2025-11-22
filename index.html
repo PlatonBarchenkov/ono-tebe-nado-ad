@@ -15,13 +15,13 @@
     <nav class="header_menu">
         <ul class="header_links-list">
             <li class="header_links-list-item header__links-list-item_no-bullit">
-                <a class="header_link">главная</a>
+                <a class="header_link" href="#home">главная</a>
             </li>
             <li class="header_links-list-item">
-                <a class="header_link" href="#">посмотреть лоты</a>
+                <a class="header_link" href="#lots">посмотреть лоты</a>
             </li>
             <li class="header_links-list-item">
-                <a class="header_link" href="#">об аукционе</a>
+                <a class="header_link" href="#about">об аукционе</a>
             </li>
         </ul>
     </nav>
@@ -38,7 +38,7 @@
 </header>
 
 <main>
-    <section class="cover font-text">
+    <section class="cover font-text" id="home">
         <div class="overlay"></div>
         <span class="cover_title aligned-text">Оно</span>
         <span class="cover_title aligned-text_center">тебе</span>
@@ -48,7 +48,7 @@
             <button class="description_button">Сделать ставку</button>
         </div>
     </section>
-    <section class="lots">
+    <section class="lots" id="lots">
         <h1 class="lots_heading">Лоты</h1>
         <ul class="lots_card-list">
             <li class="lots_card-list-item">
@@ -95,7 +95,7 @@
         </ul>
         <a href="#" class = "lots_look-more-link"><p class="link_text">посмотреть больше</p></a>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="about_logo">
             <img class="about_logo-image" src="images/logo-white.svg" alt="логотип">
         </div>
@@ -128,9 +128,9 @@
 
     <nav class="footer_menu">
         <ul class="footer_menu_list">
-            <li><a class="footer_menu_link">главная</a></li>
-            <li><a class="footer_menu_link" href="#">посмотреть лоты</a></li>
-            <li><a class="footer_menu_link" href="#">об аукционе</a></li>
+            <li><a class="footer_menu_link" href="#home">главная</a></li>
+            <li><a class="footer_menu_link" href="#lots">посмотреть лоты</a></li>
+            <li><a class="footer_menu_link" href="#about">об аукционе</a></li>
         </ul>
     </nav>
 
